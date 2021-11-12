@@ -91,3 +91,7 @@ for evenNumber in finalArray {
     }
 }
 print("\nThe 1/2 of array with \(finalArray.count) numbers, odd numbers only: \(finalArray)")
+
+// Test of filter during the correction
+let constFilter = finalArray.filter({$0 % 2 != 0})
+print(constFilter)
